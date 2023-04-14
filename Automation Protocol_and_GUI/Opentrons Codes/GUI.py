@@ -10,7 +10,7 @@ layout = [
 window = psg.Window('Input Form', layout)
 
 # Read the protocol file
-protocol_file = "C:/Users/Tan Ching Hai/Desktop/NTU Studies/NTU FYP/OT-2 Automation/Opentrons Codes/New/v3/Full protocol_v3.py"
+protocol_file = "Full protocol_v3.py"
 with open(protocol_file, 'r') as f:
     protocol_lines = f.readlines()
 
