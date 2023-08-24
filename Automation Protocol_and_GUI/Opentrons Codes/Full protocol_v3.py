@@ -103,9 +103,9 @@ def run(protocol: protocol_api.ProtocolContext):
     # 0.075)
 
     pick_up_current = num_channels_per_pickup*per_tip_pickup_current
-    protocol._hw_manager.hardware._attached_instruments[
+    '''protocol._hw_manager.hardware._attached_instruments[
         right._implementation.get_mount()].update_config_item(
-        'pick_up_current', pick_up_current)
+        'pick_up_current', pick_up_current)'''
     
     # Control Speed of Axis Movement (Motors)
     left.default_speed = 800  # Speed of Motors
